@@ -280,6 +280,10 @@ header{
 header .img-header{
     display: flex;
     justify-content: flex-end;
+    width: 450px;
+}
+header .img-header img{
+    width: 100%;
 }
 header .text-header h2{
     font-family: 'bold';
@@ -328,7 +332,7 @@ header .text-header .btn a:nth-child(even){
         justify-content: center;
     }
      header .img-header img{
-        width: 100px;
+        width: 100%;
         margin-top: 50px;
      }
     header{

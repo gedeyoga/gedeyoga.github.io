@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$("#click").click(function(){
+		$("#sd").addClass("shadow");
+		$(".menu-mobile").addClass("active-mobile");
+	});
+	$("#sd").click(function(){
+		$("#sd").removeClass("shadow");
+		$(".menu-mobile").removeClass("active-mobile");
+	});
+	$("#close").click(function(){
+		$("#sd").removeClass("shadow");
+		$(".menu-mobile").removeClass("active-mobile");
+	})
+})

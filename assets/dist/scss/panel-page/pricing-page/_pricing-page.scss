@@ -1,0 +1,71 @@
+#premiumAlert{
+    
+    .modal-body{
+        h2{
+            color: #1B1D28;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.title-pricing{
+    color: #1B1D28;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.pricing{
+    h4{
+        color: yellow;
+        font-weight: 600;
+    }
+    .price{
+        font-size: 32px;
+        font-weight: 600;
+        color: #007BED;
+    }
+    .price-month{
+        color: #979797;
+        font-weight: 500;
+    }
+    .choose-price{
+        border: 1px solid #673AB7;
+        display: inline-block;
+        border-radius: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn-grad{
+        color: white !important;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 15px;
+            display: flex;
+            img{
+                height: auto;
+                width: 24px;
+                margin-right: 10px;
+            }
+            span{
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .free{
+        font-size: 32px;
+        font-weight: 600;
+        color: #44DE2B;
+    }
+    .text-free{
+        margin-bottom: 70px;
+    }
+}

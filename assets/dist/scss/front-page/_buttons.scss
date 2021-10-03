@@ -1,0 +1,15 @@
+.btn-utama{
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  background: -webkit-linear-gradient(left, #673ab7 0%, #9733EE 50%, #673ab7 100%);
+    background: -o-linear-gradient(left, #673ab7 0%, #9733EE 50%, #673ab7 100%);
+    background: linear-gradient(to right, #673ab7 0%, #9733EE 50%, #673ab7 100%);
+  background-size: 200%;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 10px 15px !important;
+  font-weight: 500;
+}

@@ -1,0 +1,132 @@
+@media screen and(max-width: 768px){
+    .wrapper{
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and(max-width: 573px){
+    .btn-contact{
+        span{
+            font-size: 12px;
+        }
+    }
+    .profile{
+        .desc-profile{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .swiper-content{
+        h2{
+            font-size: 14px;
+        }
+        .swiper-container{
+            padding-right: 50px;
+            .swiper-wrapper{
+                .box{
+                    border-radius: 20px;
+                    min-height: 90px;
+                    padding: 10px 2px !important;
+                    img{
+                        margin-top: 6px;
+                        width: 35px;
+                    }
+                    p{
+                        font-size: 12px !important;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                    }
+                    span{
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .produk{
+        h2{
+            font-size: 14px;
+        }
+    }
+    .link{
+        h2{
+            font-size: 14px;
+        }
+    }
+
+    // Detail Page
+    .item-image{
+        border-radius: 0 0 60px  60px;
+        max-height: 360px;
+    }
+
+    .information{
+        margin-top: 50px;
+        h2{
+            font-size: 25px;
+        }
+        p{
+            min-height: 120px;
+        }
+    }
+
+    .pricing{
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+    
+        .preview{
+            .currency{
+                font-size: 1rem;
+            }
+            span{
+                font-weight: 500;
+                font-size: 1.4rem;
+            }
+        }
+    
+        .btn-whatsapp{
+            padding: 16px 18px;
+            i{
+                font-size: 20px;
+                margin-right: 10px;
+            }
+            span{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 320px){
+    .item-image{
+        border-radius: 0 0 30px  30px;
+        max-height: 220px;
+    }
+    .preview{
+        .currency{
+            font-size: 0.8rem !important;
+        }
+        span{
+            font-weight: 500;
+            font-size: 1.3rem !important;
+        }
+    }
+
+    .btn-whatsapp{
+        padding: 10px !important;
+        i{
+            font-size: 1rem;
+        }
+        span{
+            font-size: 0.7rem !important;
+        }
+    }
+}

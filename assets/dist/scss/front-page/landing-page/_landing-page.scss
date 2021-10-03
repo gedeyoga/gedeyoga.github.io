@@ -1,0 +1,333 @@
+/* --- LANDING PAGE CSS --- */
+
+.bg-hero{
+    margin-top: -89px;
+    padding-bottom: 50px;
+    
+    .hero-desc{
+        min-height: 500px;
+        letter-spacing: -0.02em;
+        h1{
+            font-weight: 400;
+            font-size: 36px;
+            color: #2A2833;
+        }
+        p{
+            font-size: 16px;
+            color: #868686;
+        }
+    }
+    .hero-illust{
+        img{
+            width: 95%;
+            height: auto;
+        }
+    }
+}
+
+.bg-spec{
+    padding: 50px 0;
+    .line{
+        width: 190px;
+        height: 8px;
+        background-color: #673AB7;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    h2{
+        margin-top: 16px;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        color: #2A2833;
+    }
+    
+    .card{
+        border: none;
+        box-shadow: 4px 4px 25px -5px rgba(0, 0, 0, 0.15);
+        border-radius: 14px;
+        margin: 0 15px;
+        .card-body{
+            min-height: 402px;
+            padding: 45px 30px ;
+            text-align: center;
+            .img-spec{
+                width: 90px;
+                margin-bottom: 24px;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+                color: #2A2833;
+                margin-bottom: 12px;
+            }
+            p{
+                font-size: 16px;
+                color: #868686;
+                letter-spacing: -0.02em;
+            }
+            .icon-spec{
+                margin-top: 32px;
+            }
+        }
+    }
+}
+.bg-fitur{
+    padding: 100px 0;
+
+    .fitur-desc{
+        letter-spacing: -0.02em;
+
+        .line{
+            width: 190px;
+            height: 8px;
+            background-color: #673AB7;
+            border-radius: 20px;
+        }
+        
+        h1{
+            font-weight: 400;
+            font-size: 36px;
+            color: #2A2833;
+            margin-bottom: 15px;
+            margin-top: 24px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            color: #868686;
+            margin-bottom: 40px;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 15px;
+
+                img{
+                    height: auto;
+                    width: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .fitur-illust{
+        img{
+            width: 100%;
+        }
+    }
+}
+.bg-testi{
+    padding: 70px 0;
+    background: url('../../../../../assets/images/backgrounds/bg-testi.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #673AB7;
+    background-position: center;
+
+    .testi-desc{
+        letter-spacing: -0.02em;
+
+        .line{
+            width: 190px;
+            height: 8px;
+            background-color: #fff;
+            border-radius: 20px;
+        }
+        
+        h1{
+            font-weight: 400;
+            font-size: 36px;
+            color: #fff;
+            margin-bottom: 15px;
+            margin-top: 24px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+        }
+    }
+    .testimoni{
+        width: 80%;
+        .swiper-container{
+            z-index: 0;
+            .swiper-wrapper{
+                .swiper-slide{
+                    padding: 30px 25px;
+                    width: 100%;
+                    height: auto;
+                    background-color: #fff;
+                    border-radius: 20px;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+
+                    .img-testi{
+                        width: 50px;
+                        height: 50px;
+                        background-color: grey;
+                        overflow: hidden;
+                        border-radius: 50px;
+                        float: left;
+                        margin-right: 25px;
+                        display: flex;
+
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                        }
+                    }
+                    .text-testi{
+                        width: 80%;
+
+                        p{
+                            font-size: 14px;
+                            letter-spacing: -0.02em;
+                            color: #6A6972;
+                        }
+                    }
+                    .profil-testi{
+                        margin-top: 20px;
+                        color: #2A2833;
+                        p{
+                            margin-bottom: 0;
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                        span{
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .swiper-pagination{
+                position: relative;
+                top: 5px;
+
+                .swiper-pagination-bullet{
+                    width: 10px;
+                    height: 10px;
+                    background-color: rgba(0, 0, 0, 0);
+                    border: 2px solid #fff;
+                }
+                .swiper-pagination-bullet-active{
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.bg-tutor{
+    padding: 50px 0;
+
+    h1{
+        font-weight: 400;
+        font-size: 36px;
+        color: #363636;
+        margin-bottom: 15px;
+        margin-top: 24px;
+        text-align: center;
+    }
+    .card{
+        border-radius: 15px;
+        box-shadow: 4px 4px 50px -5px rgba(0, 0, 0, 0.25);
+        .card-body{
+            padding: 40px;
+            h2{
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: -0.02em;
+                color: #363636;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .video{
+        margin: 100px 0;
+        .bg-video{
+            width: 450px;
+            overflow: hidden;
+            img{
+                height: auto;
+                width: 100%;
+            }
+        }
+        .embd-video{
+            border-radius: 20px;
+            overflow: hidden;
+            position: absolute;
+            iframe{
+                border: none;
+                height: 450px;
+            }
+        }
+    }
+
+}
+
+.bg-footer{
+    height: auto;
+    padding: 50px 0 20px 0;
+    background: url('../../../../../assets/images/backgrounds/footer.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -420px;
+
+    .footer{
+        margin-top: 400px;
+
+        .footer-desc{
+            p{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 25px;
+                letter-spacing: -0.02em;
+            }
+        }
+        .footer-menu{
+            h4{
+                margin-top: 10px;
+                margin-bottom: 18px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style: none;
+                    margin-top: 10px;
+                    a{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .copyright{
+        p{
+            margin-top: 70px;
+            border-top: 2px solid #fff;
+            padding: 20px 0;
+            color: #fff;
+        }
+    }
+}

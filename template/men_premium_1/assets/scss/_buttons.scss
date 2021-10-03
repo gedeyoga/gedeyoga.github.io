@@ -1,0 +1,101 @@
+.btn-get-started{
+    font-family: 'poppins-medium';
+    background-color: rgb(94, 1, 182);
+    color: white;
+    border-radius: 15px;
+
+    &:hover{
+        background-color: rgb(66, 2, 126);
+        color: white;
+    }
+}
+
+.btn-social{
+    background-color: #393B44;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 7px 15px;
+
+    &:hover{
+        background-color: #79b0a9;
+        color: white;
+    }
+}
+
+.btn-line{
+    background-color: #ECFFEC;
+    color: #098709;
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 7px 15px;
+
+    &:hover{
+        background-color: #098709;
+        color: #ECFFEC;
+    }
+}
+
+.btn-link{
+    background-color: #EBF0FF;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #212529;
+    padding: 15px 0;
+    border-radius: 15px;
+
+    &:hover{
+        color: #212529;
+        background-color: #b4bacf;
+    }
+}
+
+.btn-menu{
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 5px;
+}
+.btn-darkness{
+    width: 100% !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border:1px solid #393B44;
+    font-weight: 500;
+    color: #393B44;
+}
+.btn-active{
+    background-color: #393B44;
+    color: white;
+
+    &:hover{
+        background-color: #393B44;
+        color: white;
+    }
+}
+.btn-buy{
+    background-color: #fff;
+    color: #393B44;
+    border-radius: 100px;
+    font-weight: 600;
+    padding: 10px 60px;
+    font-size: 20px;
+
+    &:hover{
+        background-color: rgb(206, 206, 206);
+        color: #393B44;
+    }
+}
+.btn-dark{
+    padding: 10px 15px;
+    background-color: #2B2C31 !important;
+    border: none;
+    &:hover{
+        border: none;
+    }
+}
+
+.pembatas{
+    width: 80%;
+    height: 2px;
+    background-color: #ececec;
+    margin: 0 auto;
+}

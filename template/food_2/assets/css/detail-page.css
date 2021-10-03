@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@font-face {
+  font-family: 'poppins-bold';
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'poppins-medium';
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'poppins-regular';
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: 'Poppins';
+  letter-spacing: 0.007em;
+}
+
+body {
+  background-color: #F3EFE4;
+  color: #363636;
+}
+
+.wrapper {
+  max-width: 462.66px;
+  margin: 0 auto;
+}
+
+.item-image {
+  width: 100%;
+  height: 460px;
+  background-color: grey;
+  max-height: 320px;
+  overflow: hidden;
+  border-radius: 0 0 70px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.item-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item-image .button-back {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
+
+.item-image .button-back a {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: white;
+  background-color: 363636;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+}
+
+.information {
+  margin-top: 50px;
+}
+
+.information h2 {
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -5%;
+}
+
+.information span {
+  color: #979797;
+  display: block;
+  margin-top: 10px;
+}
+
+.information p {
+  color: #979797;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.pricing {
+  width: 100%;
+  padding: 10px 18px 25px 18px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 10px 0.5;
+          box-shadow: 10px 10px 10px 0.5;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing .preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.pricing .preview label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  font-size: 40px !important;
+}
+
+.pricing .preview .currency {
+  top: 0;
+  font-size: 1rem;
+  color: #363636;
+}
+
+.pricing .preview .nominal {
+  font-weight: 600;
+  color: #363636;
+}
+
+.pricing .preview span {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.pricing .btn-whatsapp {
+  color: white;
+  border-radius: 15px;
+  background-color: #FA8223;
+  padding: 16px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 28.5816px 34.8439px rgba(103, 58, 183, 0.0323969), 0px 17.2217px 20.995px rgba(103, 58, 183, 0.0276031), 0px 9.59014px 11.6913px rgba(103, 58, 183, 0.0223931), 0px 4.12465px 5.02837px rgba(103, 58, 183, 0.0154995);
+          box-shadow: 0px 28.5816px 34.8439px rgba(103, 58, 183, 0.0323969), 0px 17.2217px 20.995px rgba(103, 58, 183, 0.0276031), 0px 9.59014px 11.6913px rgba(103, 58, 183, 0.0223931), 0px 4.12465px 5.02837px rgba(103, 58, 183, 0.0154995);
+}
+
+.pricing .btn-whatsapp i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.pricing .btn-whatsapp span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 573px) {
+  .item-image {
+    border-radius: 0 0 60px  60px;
+    max-height: 360px;
+  }
+  .information {
+    margin-top: 50px;
+  }
+  .information h2 {
+    font-size: 25px;
+  }
+  .information p {
+    min-height: 120px;
+  }
+  .pricing {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+  .pricing .preview .currency {
+    font-size: 1rem;
+  }
+  .pricing .preview span {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  .pricing .btn-whatsapp {
+    padding: 16px 18px;
+  }
+  .pricing .btn-whatsapp i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .pricing .btn-whatsapp span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .item-image {
+    border-radius: 0 0 30px  30px;
+    max-height: 220px;
+  }
+  .preview .currency {
+    font-size: 0.8rem !important;
+  }
+  .preview span {
+    font-weight: 500;
+    font-size: 1.3rem !important;
+  }
+  .btn-whatsapp {
+    padding: 10px !important;
+  }
+  .btn-whatsapp i {
+    font-size: 1rem;
+  }
+  .btn-whatsapp span {
+    font-size: 0.7rem !important;
+  }
+}

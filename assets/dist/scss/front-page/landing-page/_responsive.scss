@@ -1,0 +1,105 @@
+/* --- LANDING PAGE RESPONSIVE CSS --- */
+@media screen and (max-width: 991px){
+    br{
+        display: none;
+    }
+    .bg-hero{
+        .hero-desc{
+            min-height: 350px;
+            margin-top: 70px;
+        }
+        .hero-illust{
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+    .bg-fitur{
+        .fitur-desc{
+            .line{
+                margin: 0 auto !important;
+            }
+            h1 , p{
+                text-align: center;
+            }
+            ul{
+                width: 100%;
+                margin: 0 auto;
+
+                li{
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .fitur-illust{
+            width: 90%;
+            margin: 20px auto 0 auto;
+        }
+    }
+    .bg-testi{
+        .testi-desc{
+            .line{
+                margin: 0 auto !important;
+            }
+            h1 , p{
+                text-align: center;
+            }
+        }
+        .testimoni{
+            .swiper-container{
+                .swiper-wrapper{
+                    .swiper-slide{
+                        .img-testi{
+                            margin-right: 0;
+                        }
+                        .profil-testi{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-tutor{
+        .video{
+            position: relative;
+            .embd-video{
+                top: -50px;
+            }
+        }
+        .card{
+            .card-body{
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px){
+    h1{
+        font-size: 26px !important;
+    }
+    .bg-tutor{
+        .video{
+            margin: 50px 0;
+            .embd-video{
+                position: static !important;
+            }
+            .bg-video{
+                display: none !important;
+            }
+        }
+        .card{
+            .card-body{
+                h2{
+                    font-size: 22px !important;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

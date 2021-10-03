@@ -1,0 +1,259 @@
+.btn-custom-login{
+    border-radius: 0;
+    background:  #E8E5F3;
+    height: 2.3rem;
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-sign{
+    border-radius: 0;
+    font-weight: 500;
+    height: 2.3rem;
+    background: rgb(94, 1, 182);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start{
+    font-weight: 500;
+    border-radius: 0;
+    background: rgb(94, 1, 182);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 2;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start-light{
+    font-weight: 500;
+    border-radius: 0;
+    background:  #E8E5F3;
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 2;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start-light:hover{
+    font-weight: 500;
+    border-radius: 0;
+    background: rgb(204, 204, 204);
+    color: rgb(94, 1, 182);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto auto;
+    width: 10rem;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 2;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-start:hover{
+    font-weight: 500;
+    border-radius: 0;
+    background: rgb(66, 2, 126);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 2;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-login:hover{
+    font-weight: 500;
+    border-radius: 0;
+    background: rgb(204, 204, 204);
+    height: 2.3rem;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-custom-sign:hover{
+    font-weight: 500;
+    border-radius: 0;
+    height: 2.3rem;
+    background: rgb(66, 2, 126);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: auto 14px;
+    border: transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.container-fluid-custom{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-custom{
+    background-color: #E8E5F3
+}
+.card-custom{
+    height: 12rem;
+}
+.custom-circle{
+    border-radius: 2.5rem;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    padding: 13px;
+    margin: auto;
+}
+.bg-custom-u{
+    background-color: rgb(94, 1, 182);
+    padding: 0 .9rem;
+}
+.h1-custom{
+    font-size: 13vmin;
+    padding: 0 1.2vmax;
+}
+.h3-custom{
+    font-size: 10.9vmin;
+}
+.p-custom1{
+    font-size: 4.6vmin;
+}
+.p-custom{
+    font-size: 4.6vmin;
+    padding: 0 1.2vmax;
+}
+.width-modal-custom{
+    width: 18em;
+    margin:35% auto
+}
+
+.form-login {
+    padding: 3px 0;
+    border-radius: .2rem;
+    width:100%;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button-login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+.button-login:hover {
+  opacity: 0.8;
+}
+
+.form-signup{
+  box-sizing: border-box;
+  padding: 0 20px auto 20px;
+  border-radius: 5px;
+  margin-top:0.2vmax;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.btn-signup {
+  background-color: #4CAF50;
+  color: #673AB7;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: auto;
+}
+.btn-signup:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.container-forms {
+  padding: 16px;
+  background-color: #673AB7;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: #ffffff;
+}

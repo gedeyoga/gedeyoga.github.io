@@ -1,0 +1,15 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* BUTTONS */
+@import 'buttons';
+/* NAVBAR */
+@import 'navbar';
+
+body{
+    font-family: 'Poppins';
+}
+/* Landing Page CSS */
+@import 'landing-page/landing-page';
+@import 'landing-page/responsive';
+/* Landing Page CSS */

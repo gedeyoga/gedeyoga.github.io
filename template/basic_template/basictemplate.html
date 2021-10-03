@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Source CSS -->
+    <link rel="stylesheet" href="../../assets/dist/css/style.min.css">
+    <link rel="stylesheet" href="../../assets/dist/css/preloader.css">
+    <link rel="stylesheet" href="../../assets/vendor/swiperjs/css/swiper-bundle.css">
+
+    <!-- Source JS  -->
+    <script src="../../assets/dist/js/jquery.min.js"></script>
+    <script src="../../assets/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/dist/js/popper.min.js"></script>
+    <script src="../../assets/vendor/swiperjs/js/swiper-bundle.js"></script>
+
+    <!-- Library -->
+    <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custmom CSS -->
+    <link rel="stylesheet" href="assets/css/style-custom.css">
+    <script src="assets/js/helper.js"></script>
+
+    <title>Basic Template</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="loading">
+          <img src="assets/image/loader.gif" width="400">
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <!-- Sampul -->
+        <div class="home-page d-block" style="opacity: 1;">
+            <div class="header-sampul">
+                <img src="assets/image/sampul-1.jpg" alt="sampul">
+            </div>
+            <div class="content px-4">
+    
+                <!-- Profile  -->
+                <div class="profile text-center">
+                    <img src="../../assets/images/logo-wibinx.png" alt="Wibinx">
+                </div>
+                <div class="profile-description text-center mt-3 mt-sm-4">
+                    <h3>Wibinx</h3>
+                    <p class="mt-2 mt-sm-3">Tools menaruh semua link dalam satu micro website</p>
+    
+                    <div class="d-flex justify-content-center mt-4">
+                        <button id="btnAllLink" class="btn btn-light btn-active px-4 mr-2 rounded-pill" href="">All Link</button>
+                        <button id="btnKatalog" class="btn btn-light px-4 rounded-pill" href="">Katalog</button>
+                    </div>
+                </div>
+    
+                <!-- All Link Tab -->
+                <div id="all-link" class="d-block" style="opacity: 1;">
+    
+                    <!-- Sosmed -->
+                    <div class="social-media mt-5">
+                        <h3>Sosial Media</h3>
+                        <div class="swiper-container swiper1 mt-4 pr-5">
+                            <div class="swiper-wrapper">
+                                <!-- Slider & Foreach -->
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-social text-center d-flex flex-column align-items-center bg-instagram">
+                                            <img src="assets/image/svg/instagram.svg" alt="">
+                                            <div class="social-name">
+                                                <span>Instagram</span>
+                                            </div>
+                                            <div class="social-id">
+                                                <span>@instagram</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-social text-center d-flex flex-column align-items-center bg-facebook">
+                                            <img src="assets/image/svg/facebook.svg" alt="">
+                                            <div class="social-name">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div class="social-id">
+                                                <span>Eiger Adventure Denpasar Indonesia Bali Indonesia</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-social text-center d-flex flex-column align-items-center bg-youtube">
+                                            <img src="assets/image/svg/youtube.svg" alt="">
+                                            <div class="social-name">
+                                                <span>Youtube</span>
+                                            </div>
+                                            <div class="social-id">
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-social text-center d-flex flex-column align-items-center bg-tiktok">
+                                            <img src="assets/image/svg/youtube.svg" alt="">
+                                            <div class="social-name">
+                                                <span>Tiktok</span>
+                                            </div>
+                                            <div class="social-id">
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- End Foreach -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Kontak Admin -->
+                    <div class="admin mt-5">
+                        <h3>Admin</h3>
+                        <!-- Foreach -->
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div class="icon-social bg-whatsapp">
+                                    <img src="assets/image/svg/whatsapp.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact-social">
+                                    <label>Whatsapp Admin</label>
+                                    <span>08129123008</span>
+                                </div>
+                                <a class="btn btn-social btn-sm ml-auto" href="">chat</a>
+                            </div>
+                        </div>
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div class="icon-social bg-whatsapp">
+                                    <img src="assets/image/svg/whatsapp.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact-social">
+                                    <label>Whatsapp Admin</label>
+                                    <span>08129123008</span>
+                                </div>
+                                <a class="btn btn-social btn-sm ml-auto" href="">chat</a>
+                            </div>
+                        </div>
+                        <div class="pembatas"></div>
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div class="icon-social bg-line">
+                                    <img src="assets/image/svg/line.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact-social">
+                                    <label>Line</label>
+                                    <span>@aksj87d</span>
+                                </div>
+                                <a class="btn btn-line btn-sm ml-auto" href="">chat</a>
+                            </div>
+                        </div> 
+                        <!-- End Foreach -->
+                    </div>
+    
+                    <!-- Marketplace -->
+                    <div class="marketplace mt-5">
+                        <h3>Marketplace</h3>
+                        <div class="row">
+                            <!-- Foreach -->
+                            <div class="col-6 card-market">
+                                <a href="">
+                                    <div class="card bg-shopee">
+                                        <div class="card-body ">
+                                            <div class="marketplace-image">
+                                                <img src="assets/image/svg/shopee.svg" alt="">
+                                            </div>
+                                            <div class="marketplace-info">
+                                                <p>Shoppe</p>
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 card-market">
+                                <a href="">
+                                    <div class="card bg-tokopedia">
+                                        <div class="card-body">
+                                            <div class="marketplace-image">
+                                                <img src="assets/image/svg/tokopedia.svg" alt="">
+                                            </div>
+                                            <div class="marketplace-info">
+                                                <p>Tokopedia</p>
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 card-market">
+                                <a href="">
+                                    <div class="card bg-lazada">
+                                        <div class="card-body">
+                                            <div class="marketplace-image">
+                                                <img src="assets/image/svg/lazada.svg" alt="">
+                                            </div>
+                                            <div class="marketplace-info">
+                                                <p>Lazada</p>
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 card-market">
+                                <a href="">
+                                    <div class="card bg-bukalapak">
+                                        <div class="card-body">
+                                            <div class="marketplace-image">
+                                                <img src="assets/image/svg/Bukalapak.svg" alt="">
+                                            </div>
+                                            <div class="marketplace-info">
+                                                <p>Bukalapak</p>
+                                                <span>Eiger Adventure</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Foreach -->
+                        </div>
+                    </div>
+    
+                    <!-- Link -->
+                    <div class="link mt-5">
+                        <h3>Link Lainnya</h3>
+                        <div class="mt-3 d-flex flex-column">
+                            <a class="btn btn-link" href="">Buka Website</a>
+                            <a class="btn btn-link" href="">Join Reseller</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- Katalog Tab -->
+                <div id="katalog" class="d-none" style="opacity : 0">
+    
+                    <!-- Trending -->
+                    <div class="trending mt-5">
+                        <h3>Trending</h3>
+                        <div class="swiper-container swiper2 pl-3 pr-5 py-4">
+                            <div class="swiper-wrapper">
+                                <!-- Slider & Foreach -->
+                                <div class="swiper-slide">
+                                    <a class="goto-detail" href="detail-page.html">
+                                        <div class="box-trending bg-instagram">
+                                            <div class="img-trending">
+                                                <img src="assets/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="info-trending">
+                                                <div class="description-trending">
+                                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quidem consequuntur deleniti libero voluptatibus debitis, </h6>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p>Rp. 125.000</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-trending bg-instagram">
+                                            <div class="img-trending">
+                                                <img src="assets/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="info-trending">
+                                                <div class="description-trending">
+                                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quidem consequuntur deleniti libero voluptatibus debitis, </h6>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p>Rp. 125.000</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-trending bg-instagram">
+                                            <div class="img-trending">
+                                                <img src="assets/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="info-trending">
+                                                <div class="description-trending">
+                                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quidem consequuntur deleniti libero voluptatibus debitis, </h6>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p>Rp. 125.000</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-trending bg-instagram">
+                                            <div class="img-trending">
+                                                <img src="assets/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="info-trending">
+                                                <div class="description-trending">
+                                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quidem consequuntur deleniti libero voluptatibus debitis, </h6>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p>Rp. 125.000</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="box-trending bg-instagram">
+                                            <div class="img-trending">
+                                                <img src="assets/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="info-trending">
+                                                <div class="description-trending">
+                                                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut odit quidem consequuntur deleniti libero voluptatibus debitis, </h6>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p>Rp. 125.000</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- End Foreach -->
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <!-- New Product -->
+                    <div class="new-product mt-5">
+                        <h3>Produk Terbaru</h3>
+                        <div class="swiper-container swiper3 pl-3 pr-5 py-4">
+                            <div class="swiper-wrapper">
+                                <!-- Slider & Foreach -->
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="card">
+                                            <div class="card-body d-flex align-items-center">
+                                                <div class="img-product">
+                                                    <img src="assets/image/trending.png" alt="">
+                                                </div>
+                                                <div class="product-text">
+                                                    <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ea nostrum animi</h6>
+                                                    <span>Rp. 150.000</span>
+                                                </div>
+                                                <div class="img-msg ml-auto">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="card">
+                                            <div class="card-body d-flex align-items-center">
+                                                <div class="img-product">
+                                                    <img src="assets/image/trending.png" alt="">
+                                                </div>
+                                                <div class="product-text">
+                                                    <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ea nostrum animi</h6>
+                                                    <span>Rp. 150.000</span>
+                                                </div>
+                                                <div class="img-msg ml-auto">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="" href="">
+                                        <div class="card">
+                                            <div class="card-body d-flex align-items-center">
+                                                <div class="img-product">
+                                                    <img src="assets/image/trending.png" alt="">
+                                                </div>
+                                                <div class="product-text">
+                                                    <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ea nostrum animi</h6>
+                                                    <span>Rp. 150.000</span>
+                                                </div>
+                                                <div class="img-msg ml-auto">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- End Foreach -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+    
+                    <!-- Best Seller -->
+                    <div class="best-seller mt-4">
+                        <h3>Best Seller</h3>
+                        <div class="row">
+                            <!-- Foreach -->
+                            <div class="col-6 mb-4 card-mobile">
+                                <a href="">
+                                    <div class="box-best">
+                                        <div class="img-best">
+                                            <img src="assets/image/1.jpg" alt="">
+                                        </div>
+                                        <div class="info-best">
+                                            <div class="description-best">
+                                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum in modi incidunt enim autem, dolorum perspici</h6>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p>Rp. 125.000</p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 mb-4 card-mobile">
+                                <a href="">
+                                    <div class="box-best">
+                                        <div class="img-best">
+                                            <img src="assets/image/1.jpg" alt="">
+                                        </div>
+                                        <div class="info-best">
+                                            <div class="description-best">
+                                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum in modi incidunt enim autem, dolorum perspici</h6>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p>Rp. 125.000</p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 mb-4 card-mobile">
+                                <a href="">
+                                    <div class="box-best">
+                                        <div class="img-best">
+                                            <img src="assets/image/1.jpg" alt="">
+                                        </div>
+                                        <div class="info-best">
+                                            <div class="description-best">
+                                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum in modi incidunt enim autem, dolorum perspici</h6>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p>Rp. 125.000</p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 mb-4 card-mobile">
+                                <a href="">
+                                    <div class="box-best">
+                                        <div class="img-best">
+                                            <img src="assets/image/1.jpg" alt="">
+                                        </div>
+                                        <div class="info-best">
+                                            <div class="description-best">
+                                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum in modi incidunt enim autem, dolorum perspici</h6>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <p>Rp. 125.000</p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Foreach -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <!-- Footer -->
+            <div class="footer">
+                <p>2021 - Powered by Wibinx.com</p>
+            </div>
+        </div>
+
+        <div class="detail-page d-none" style="opacity: 0;">
+            <!-- Sampul -->
+            <div class="item-image">
+                <img src="assets/image/sampul-1.jpg" alt="sampul">
+                <div class="button-back">
+                    <a href="basictemplate.html">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5795 14.7994C6.90733 15.1493 7.435 15.145 7.758 14.7899C8.081 14.4347 8.07708 13.8632 7.74925 13.5132L3.27397 8.73622H14.6666C15.1268 8.73622 15.4999 8.33204 15.4999 7.83344C15.4999 7.33493 15.1268 6.93066 14.6666 6.93066H3.27947L7.74925 2.15962C8.07708 1.80968 8.081 1.23809 7.758 0.882935C7.435 0.527773 6.90733 0.523539 6.5795 0.873483L0.809348 7.03259C0.395256 7.47459 0.395256 8.19825 0.809348 8.64025L6.5795 14.7994Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="content detail px-4">
+                <div class="information">
+                    <h2>Telur Rebus Mix Chocolate</h2>
+                    <span><i>Trending</i></span>
+                    <p>Makanan yang diolah dengan bahan-bahan alami. Nyaman dikonsumsi dan siap disajikan pada acara apapun.</p>
+                </div>
+                <div class="pricing">
+                    <div class="preview">
+                        <label>
+                            <span class="currency">Rp</span>
+                            <span class="nominal">9.000.000</span>
+                        </label>
+                    </div>'
+                    <div class='d-flex'>
+                        <a class="btn-whatsapp" href="">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Tanya Whatsapp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content custom-modal">
+                <div class="modal-body px-4">
+                    <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h1 class="h1 mt-5">
+                        Maksimalkan Link Olshop Anda
+                    </h1>
+                    <p class="p">Taruh semua link Online Shop Anda dalam satu Micro Website. Jadilah
+                        online shop yang unggul
+                        mulai
+                        dari sekarang.
+                        <br>
+                        <a href="/" class="btn btn-get-started mt-5 mb-4">Get Started</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

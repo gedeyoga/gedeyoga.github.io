@@ -1,0 +1,29 @@
+.navbar{
+    z-index: 1;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-size: 14px;
+                color: #363636;
+
+                &:hover{
+                    color: #673AB7;
+                }
+            }
+        }
+    }
+    .btn-white i{
+        font-size: 25px;
+    }
+}
+.navbar-white{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-collapse .btn-utama{
+        text-align: center !important;
+        margin-top: 20px;
+    }
+}

@@ -759,6 +759,9 @@ body {
   .btn-contact span {
     font-size: 12px;
   }
+  .desc-profile button {
+    font-size: 12px !important;
+  }
   .profile .desc-profile p {
     font-size: 10px;
   }
@@ -788,10 +791,134 @@ body {
   .swiper-content .swiper-container .swiper-wrapper .box span {
     font-size: 10px !important;
   }
+  .trending h3 {
+    font-size: 14px;
+    margin-bottom: 0px !important;
+  }
+  .trending .swiper-container {
+    padding-top: 15px !important;
+    padding-right: 90px !important;
+  }
+  .trending .swiper-container .swiper-wrapper .swiper-slide a .box-trending .img-trending {
+    height: auto;
+    max-height: 170px;
+  }
+  .trending .swiper-container .swiper-wrapper .swiper-slide a .box-trending .info-trending .description-trending h6 {
+    font-size: 10px !important;
+    margin-bottom: 5px;
+  }
+  .trending .swiper-container .swiper-wrapper .swiper-slide a .box-trending .info-trending .description-trending p {
+    font-size: 12px !important;
+  }
+  .trending .swiper-container .swiper-wrapper .swiper-slide a .box-trending .info-trending .description-trending .message-trending img {
+    width: 50px;
+  }
+  .new-product {
+    margin-top: 30px !important;
+  }
+  .new-product h3 {
+    font-size: 14px;
+    margin-bottom: 0px !important;
+  }
+  .new-product .swiper-container {
+    padding-top: 15px !important;
+  }
+  .new-product .swiper-container a .card {
+    margin-bottom: 0 !important;
+  }
+  .new-product .swiper-container a .card .card-body {
+    padding: 10px;
+  }
+  .new-product .swiper-container a .card .card-body .product-text h6 {
+    font-size: 10px;
+  }
+  .new-product .swiper-container a .card .card-body .product-text span {
+    font-size: 12px;
+  }
+  .best-seller {
+    margin-top: 6px;
+  }
+  .best-seller h3 {
+    font-size: 14px;
+    margin-bottom: 15px !important;
+  }
+  .best-seller .card-mobile {
+    padding: 0 10px;
+  }
+  .best-seller a .box-best {
+    padding: 10px;
+  }
+  .best-seller a .box-best .img-best {
+    border-radius: 15px;
+    height: auto;
+    max-height: 120px;
+  }
+  .best-seller a .box-best .info-best .description-best h6 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .best-seller a .box-best .info-best .description-best p {
+    font-size: 12px;
+  }
+  .best-seller a .box-best .message-best {
+    bottom: 10px;
+    right: 10px;
+  }
   .produk h2 {
     font-size: 14px;
   }
   .link h2 {
     font-size: 14px;
+  }
+  .pricing {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+  .pricing .preview .currency {
+    font-size: 1rem;
+  }
+  .pricing .preview span {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  .pricing .btn-whatsapp {
+    padding: 16px 18px;
+  }
+  .pricing .btn-whatsapp i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .pricing .btn-whatsapp span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .item-image {
+    border-radius: 0 0 30px  30px;
+    max-height: 220px;
+  }
+  .preview .currency {
+    font-size: 0.8rem !important;
+  }
+  .preview span {
+    font-weight: 500;
+    font-size: 1.3rem !important;
+  }
+  .btn-whatsapp {
+    padding: 10px !important;
+  }
+  .btn-whatsapp i {
+    font-size: 1rem;
+  }
+  .btn-whatsapp span {
+    font-size: 0.7rem !important;
   }
 }

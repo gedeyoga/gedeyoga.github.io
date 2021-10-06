@@ -21,7 +21,7 @@
 
 * {
   font-family: 'Poppins';
-  letter-spacing: 0.007em;
+  letter-spacing: -0.05em;
 }
 
 .btn-contact {
@@ -874,51 +874,5 @@ body {
   }
   .link h2 {
     font-size: 14px;
-  }
-  .pricing {
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 15px;
-    margin-top: 15px;
-  }
-  .pricing .preview .currency {
-    font-size: 1rem;
-  }
-  .pricing .preview span {
-    font-weight: 500;
-    font-size: 1.4rem;
-  }
-  .pricing .btn-whatsapp {
-    padding: 16px 18px;
-  }
-  .pricing .btn-whatsapp i {
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  .pricing .btn-whatsapp span {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .item-image {
-    border-radius: 0 0 30px  30px;
-    max-height: 220px;
-  }
-  .preview .currency {
-    font-size: 0.8rem !important;
-  }
-  .preview span {
-    font-weight: 500;
-    font-size: 1.3rem !important;
-  }
-  .btn-whatsapp {
-    padding: 10px !important;
-  }
-  .btn-whatsapp i {
-    font-size: 1rem;
-  }
-  .btn-whatsapp span {
-    font-size: 0.7rem !important;
   }
 }

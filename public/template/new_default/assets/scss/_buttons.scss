@@ -1,0 +1,59 @@
+.btn-contact{
+    padding: 14px 25px;
+    color: #363636;
+    border-radius: 100px;
+    text-align: center;
+    display: block;
+    transition: 0.2s ease-in;
+    position: relative;
+
+    span{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    img{
+        position: absolute;
+        top: 8px;
+        left: 10px;
+    }
+}
+
+.btn-wa{
+    background-color: #BAEFE9;
+    span{
+        color: #128C7E;
+    }
+}
+.btn-line{
+    background-color: #86F786;
+    span{
+        color: #039c03;
+    }
+}
+
+.btn-link{
+    padding: 14px 25px;
+    background-color: #673AB7;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+
+    &:hover{
+        color: white;
+    }
+}
+.btn-active{
+    background-color: #673AB7;
+    color: white;
+
+    &:hover{
+        background-color: #673AB7;
+        color: white;
+    }
+}
+.desc-profile{
+    button{
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+}

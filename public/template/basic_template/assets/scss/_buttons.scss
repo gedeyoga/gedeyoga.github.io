@@ -70,3 +70,11 @@
     background-color: #ececec;
     margin: 0 auto;
 }
+
+.btn-black{
+    border-radius: 7px;
+    background-color: var(--main-black-color);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

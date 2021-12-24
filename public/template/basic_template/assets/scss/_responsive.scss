@@ -235,8 +235,36 @@
         }
     }
 
+    h3.sub-title{
+        font-size: 14px;
+    }
+
+    p.deskripsi{
+        font-size: 12px;
+    }
+
+    .tentang{
+        .img-preview{
+            height: 168px;
+            border-radius: 14px;
+        }
+    }
+
+    .testimoni{
+        .sampul{
+            .title-sampul {
+                h3{ font-size: 22px;}
+                p{ font-size: 12px; }
+            }
+        }
+    }
+
+    .btn-black{
+        font-size: 14px;
+    }
+
     .footer{
-        margin-top: 40px !important;
+        padding-top: 40px !important;
         p{
             font-size: 12px !important;
         }

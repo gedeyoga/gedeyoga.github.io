@@ -13,6 +13,9 @@ $(document).ready(function () {
                     spaceBetween: 15,
                 },
             },
+            pagination: {
+                el: ".swiper-pagination",
+            },
         });
     }
 
@@ -20,32 +23,60 @@ $(document).ready(function () {
 
     var btnAllLink = $("#btnAllLink");
     var btnKatalog = $("#btnKatalog");
+    var btnTentang = $("#btnTentang");
 
     var allLink = $("#all-link");
     var katalog = $("#katalog");
+    var tentang = $("#tentang");
 
     btnKatalog.on("click", function () {
         btnAllLink.removeClass("btn-active");
+        btnTentang.removeClass("btn-active");
         btnKatalog.addClass("btn-active");
 
         allLink.removeClass("d-block").addClass("d-none").css("opacity", 0);
+        tentang.removeClass("d-block").addClass("d-none").css("opacity", 0);
         katalog.removeClass("d-none").addClass("d-block").animate({
             opacity: 1,
             transition: "1s ease-in",
         });
+
+        $(".footer").removeClass("footer-about");
+        
         swiper(".swiper2", 1, 1, 20);
         swiper(".swiper3", 1, 1, 20);
     });
 
     btnAllLink.on("click", function () {
         btnKatalog.removeClass("btn-active");
+        btnTentang.removeClass("btn-active");
         btnAllLink.addClass("btn-active");
 
         katalog.removeClass("d-block").addClass("d-none").css("opacity", 0);
+        tentang.removeClass("d-block").addClass("d-none").css("opacity", 0);
         allLink.removeClass("d-none").addClass("d-block").animate({
             opacity: 1,
             transition: "1s ease-in",
         });
+
+        $(".footer").removeClass("footer-about");
+    });
+    
+    btnTentang.on("click", function () {
+        btnKatalog.removeClass("btn-active");
+        btnAllLink.removeClass("btn-active");
+        btnTentang.addClass("btn-active");
+
+        katalog.removeClass("d-block").addClass("d-none").css("opacity", 0);
+        allLink.removeClass("d-block").addClass("d-none").css("opacity", 0);
+        tentang.removeClass("d-none").addClass("d-block").animate({
+            opacity: 1,
+            transition: "1s ease-in",
+        });
+
+        $('.footer').addClass('footer-about');
+
+        swiper(".swiperPagination", 1, 1, 20);
     });
 });
 

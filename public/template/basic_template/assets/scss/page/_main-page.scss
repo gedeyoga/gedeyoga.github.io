@@ -1,4 +1,7 @@
 //HEADER 
+:root{
+    --main-black-color: #212529;
+}
 body{
     background-color: white;
 }
@@ -56,7 +59,7 @@ body{
         h3{
             font-weight: 600;
             font-size: 1.7rem;
-            color: #212529;
+            color: var(--main-black-color);
         }
         p{
             color: #525252;
@@ -67,7 +70,7 @@ body{
         
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
         }
         .bg-instagram{
             background-color: #F5E7FF !important;
@@ -100,7 +103,7 @@ body{
                     .social-name{
                         font-size: 1rem;
                         font-weight: 500;
-                        color: #212529;
+                        color: var(--main-black-color);
                     }
                     .social-id{
                         width: 80%;
@@ -125,7 +128,7 @@ body{
         
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
         }
 
         .card{
@@ -133,7 +136,7 @@ body{
             .card-body{
                 display: flex;
                 align-items: center;
-                color: #212529;
+                color: var(--main-black-color);
                 padding: 15px !important;
                 .icon-social{
                     width: 50px;
@@ -178,7 +181,7 @@ body{
     .marketplace{
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
             margin-bottom: 25px;
         }
         .bg-shopee{
@@ -222,7 +225,7 @@ body{
                         p{
                             font-size: 1.2rem;
                             font-weight: 500;
-                            color: #212529;
+                            color: var(--main-black-color);
                             margin-top: 12px;
                             margin-bottom: 0;
                         }
@@ -241,7 +244,7 @@ body{
     .trending{
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
         }
         .swiper-container{
             position: relative;
@@ -251,7 +254,7 @@ body{
                 max-width: 221px;
             }
             a{
-                color: #212529;
+                color: var(--main-black-color);
                 .box-trending{
                     width: 100% !important;
                     height:auto;
@@ -304,7 +307,7 @@ body{
     .new-product{
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
         }
         .swiper-container{
             position: relative;
@@ -315,7 +318,7 @@ body{
             }
 
             a{
-                color: #212529;
+                color: var(--main-black-color);
                 
                 .card{
                     background-color: white;
@@ -373,11 +376,11 @@ body{
         }
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
             margin-bottom: 25px;
         }
         a{
-            color: #212529;
+            color: var(--main-black-color);
             .box-best{
                 width: 100% !important;
                 height:auto;
@@ -431,16 +434,17 @@ body{
     .link{
         h3{
             font-weight: 600;
-            color: #212529;
+            color: var(--main-black-color);
             margin-bottom: 25px;
         }
     }
     
 }
+
 .custom-modal{
     border-radius: 20px !important;
     .h1{
-        color: #212529 !important;
+        color: var(--main-black-color) !important;
         font-size: 2.5rem; 
         font-family: 'poppins-medium';
     }
@@ -451,7 +455,7 @@ body{
 }
 
 .footer{
-    margin-top: 100px;
+    padding-top: 100px;
     background-color: white;
     p{
         text-align: center;

@@ -1,0 +1,35 @@
+.hero {
+    padding-bottom: 220px;
+    .item-count {
+        label {
+            font-size: $heading-2;
+            font-weight: 700;
+            color: $primary-color;
+            margin: 0;
+        }
+        span {
+            color: $text-color;
+            font-size: $heading-6;
+            font-weight: 300;
+        }
+    }
+
+    .card-img {
+        text-align: right;
+        z-index: 5;
+    }
+
+    .box{
+            width: 40%;
+            height: 250px;
+            position: absolute;
+            top: 400px;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+        }
+}
+
+section.portofolio , section.article {
+    margin-bottom: 120px;
+}

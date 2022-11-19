@@ -1,0 +1,23 @@
+header {
+    background-color: $base-color;
+}
+.navbar {
+    background-color: $base-color !important;
+
+    .navbar-brand{
+        color: $text-color;
+
+        &:hover{
+            color: $primary-color;
+        }
+    }
+    .navbar-nav .nav-link{
+        color: $text-color !important;
+
+        &:hover{
+            color: $primary-color !important;
+        }
+    }
+
+    .navbar-nav .active .nav-link{ color: $primary-color !important;}
+}

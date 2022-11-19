@@ -1,0 +1,9 @@
+.button-primary{ 
+    background-color: $primary-color !important;
+    color: $base-color !important;
+    transition: 0.5s ease-in-out;
+
+    &:hover{
+        background-color: $primary-color-hover !important;
+    }
+}

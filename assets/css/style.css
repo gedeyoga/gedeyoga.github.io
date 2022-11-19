@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap");
+.bgc-primary {
+  background-color: #CDAC81 !important;
+}
+
+.button-primary {
+  background-color: #CDAC81 !important;
+  color: #00303F !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: #ac8e68 !important;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.sub-title {
+  font-size: 30px;
+  color: #CAE4DB;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 55px !important;
+}
+
+.title {
+  font-size: 40px;
+  color: #CAE4DB;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-general {
+  color: #CAE4DB;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.title-article {
+  color: #CAE4DB;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+header {
+  background-color: #00303F;
+}
+
+.navbar {
+  background-color: #00303F !important;
+}
+
+.navbar .navbar-brand {
+  color: #CAE4DB;
+}
+
+.navbar .navbar-brand:hover {
+  color: #CDAC81;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #CAE4DB !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #CDAC81 !important;
+}
+
+.navbar .navbar-nav .active .nav-link {
+  color: #CDAC81 !important;
+}
+
+footer {
+  background-color: #00303F !important;
+}
+
+footer .button-primary {
+  font-size: 32px;
+}
+
+footer p {
+  font-size: 20px;
+  color: #CAE4DB;
+  font-weight: 400;
+}
+
+footer .copyright {
+  background-color: #012531;
+}
+
+footer .copyright p {
+  margin-bottom: 0px;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+.footer-contact {
+  padding-top: 60px;
+  padding-bottom: 140px;
+}
+
+.article-card {
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.article-card .card-body {
+  padding: 0;
+}
+
+.article-card .card-body a:hover {
+  text-decoration: none;
+}
+
+.article-card .card-body .thumbnail-container {
+  max-height: 300px;
+  margin-bottom: 30px;
+}
+
+.article-card .card-body .img-thumbnail {
+  border: 0;
+  border-radius: 0;
+  height: 250px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.article-card .card-body h3 {
+  margin-bottom: 30px;
+}
+
+.article-card .card-body .author,
+.article-card .card-body .category {
+  font-weight: 300;
+  color: #CAE4DB;
+}
+
+.list-category {
+  margin: 10px 0;
+}
+
+.list-category .category {
+  font-size: 12px;
+  color: #00303F !important;
+  font-weight: 400 !important;
+  padding: 5px 10px;
+  background-color: #CDAC81;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.search-article .form-control {
+  background-color: #012531;
+  border: none;
+  outline: none;
+  color: #CAE4DB !important;
+}
+
+.search-article .form-control:focus {
+  outline: none;
+}
+
+body {
+  background-color: #00303F;
+}
+
+body a, body p, body span {
+  color: #CAE4DB;
+}
+
+body a:hover {
+  color: #CAE4DB;
+}
+
+body a:focus {
+  color: #CAE4DB;
+}
+
+.hero {
+  padding-bottom: 220px;
+}
+
+.hero .item-count label {
+  font-size: 35px;
+  font-weight: 700;
+  color: #CDAC81;
+  margin: 0;
+}
+
+.hero .item-count span {
+  color: #CAE4DB;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.hero .card-img {
+  text-align: right;
+  z-index: 5;
+}
+
+.hero .box {
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  top: 400px;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+section.portofolio, section.article {
+  margin-bottom: 120px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.article .author {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.article .img-thumbnail {
+  border-radius: 15px !important;
+  max-height: 460px !important;
+}
+
+.article .article-content {
+  margin-top: 100px;
+  word-wrap: break-word;
+  text-align: justify;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.article .more-article {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #CDAC81 !important;
+}
+
+.article .more-article .img-cover {
+  max-width: 250px;
+}
+
+.article .more-article .img-cover .img-thumbnail {
+  border-radius: 8px !important;
+}
+
+.article .more-article .sub-title {
+  margin-bottom: 15px !important;
+}
+
+.article .card-body {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 968px) {
+  .article .more-article .img-cover {
+    width: 100%;
+    max-width: 100%;
+  }
+  .article .img-thumbnail {
+    border-radius: 0px !important;
+    max-height: 460px !important;
+  }
+  .article .article-content {
+    margin-top: 30px;
+  }
+}

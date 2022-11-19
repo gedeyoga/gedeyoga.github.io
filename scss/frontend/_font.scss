@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto';
+}
+
+$heading-1: 40px;
+$heading-2: 35px;
+$heading-3: 30px;
+$heading-4: 25px;
+$heading-5: 20px;
+$heading-6: 18px;   
+
+
+@media screen and(min-width: 960px){
+    $heading-1: 72px;
+    $heading-2: 48px;
+    $heading-3: 36px;
+    $heading-4: 30px;
+    $heading-5: 24px;
+    $heading-6: 18px;    
+}
+
+
+.sub-title {
+    font-size: $heading-3;
+    color: $text-color;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 55px!important;
+}
+
+.title {
+    font-size: $heading-1;
+    color: $text-color;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-general {
+    color: $text-color;
+    font-size: $heading-6;
+    font-weight: 300;
+}
+
+.title-article{
+    color: $text-color;
+    font-size: $heading-4;
+    font-weight: 700;
+}

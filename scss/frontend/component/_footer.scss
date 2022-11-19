@@ -1,0 +1,28 @@
+footer{
+    background-color: $base-color !important;
+
+    .button-primary{
+        font-size: 32px;
+    }
+}
+
+footer p{
+    font-size: $heading-5;
+    color: $text-color;
+    font-weight: 400;
+}
+
+footer .copyright {
+    background-color: $base-color-darker-1;
+
+    p{
+        margin-bottom: 0px;
+        font-size: $heading-6 !important;
+        font-weight: 300;
+    }
+}
+
+.footer-contact {
+    padding-top: 60px;
+    padding-bottom: 140px;
+}

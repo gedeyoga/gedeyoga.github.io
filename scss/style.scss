@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap');
+
+@import './frontend/color';
+@import './frontend/button';
+@import './frontend/font';
+@import './frontend/component/navbar';
+@import './frontend/component/footer';
+@import './frontend/component/component';
+body{
+    background-color: $base-color;
+
+    a, p, span {
+        color: $text-color;
+    }
+    
+    a:hover {
+        color: $text-color;
+    }
+
+    a:focus {
+        color: $text-color;
+    }
+}
+
+@import './frontend/pages/home';
+@import './frontend/pages/article';
